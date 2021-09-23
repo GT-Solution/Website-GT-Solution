@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .content .content_img {
+  padding: 50px;
+}
+
+.container .content .content_img img {
+  width: 800px;
+  border-radius: 5px;
+}
+
+.container .content .content_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  margin-bottom: 300px;
+}
+
+.container .content .content_social h1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.container .content .content_social a {
+  text-decoration: none;
+  color: #8db255;
+  font-size: 18px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.container .content .content_social a:hover {
+  color: #006b30;
+}
+
+.container .content .content_social .social img {
+  background-color: #8db255;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 50px;
+  margin-bottom: 40px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.container .content .content_social .social img:hover {
+  background-color: #006b30;
+}
+
+.container .content_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 200px;
+  color: #4a4a4a;
+  text-align: left;
+}
+
+.container .content_text p {
+  margin-bottom: 40px;
+  margin-top: 15px;
+  padding-left: 480px;
+  padding-right: 480px;
+  font-size: 1.5em;
+}
+
+.container .content_text h1 {
+  font-size: 1.7em;
+  padding-left: 480px;
+  padding-right: 480px;
+}
+/*# sourceMappingURL=index.css.map */
