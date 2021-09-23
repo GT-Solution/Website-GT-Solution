@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h4{
+    margin-top: 50px;
+}
+
+.about
+{
+    background-color:#f7f9fb;
+    .sub_about_1{
+        display: flex;
+        justify-content: center;
+        margin-left: 250px;
+        margin-right: 250px;
+        align-items: center;
+        flex-direction: row;
+        line-height:1.5;
+
+        .who_are_we{
+            margin-right: 20px;
+            margin-top: 60px;
+            img{
+                width: 544px;
+                height: 282px;
+                border-radius: 5px;
+                
+            }
+        }
+        .lees_meer_knop{
+            a{
+
+                text-decoration: none;
+                color:#1F3D83;
+                padding:10px 20px;
+                border:2px solid #1F3D83;
+                position: absolute;
+                margin-top: 15px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: .5s ease;
+                &:hover {
+                    background-color: #1F3D83;
+                    color: white;
+            }
+            display:flex;
+        }
+
+        
+        }
+
+
+
+
+    }
+    .unbreakable_text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 250px;
+        margin-right: 250px;
+        margin-top: 40px;
+        text-align: left;
+        line-height:1.5;
+
+        .white_space{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+    }
+    .ebook_image{
+        width: 544px;
+        height: 282px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-top: 50px;
+}
+
+.about {
+  background-color: #f7f9fb;
+}
+
+.about .sub_about_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  line-height: 1.5;
+}
+
+.about .sub_about_1 .who_are_we {
+  margin-right: 20px;
+  margin-top: 60px;
+}
+
+.about .sub_about_1 .who_are_we img {
+  width: 544px;
+  height: 282px;
+  border-radius: 5px;
+}
+
+.about .sub_about_1 .lees_meer_knop a {
+  text-decoration: none;
+  color: #1F3D83;
+  padding: 10px 20px;
+  border: 2px solid #1F3D83;
+  position: absolute;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .sub_about_1 .lees_meer_knop a:hover {
+  background-color: #1F3D83;
+  color: white;
+}
+
+.about .unbreakable_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 40px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.about .unbreakable_text .white_space {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about .ebook_image {
+  width: 544px;
+  height: 282px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+/*# sourceMappingURL=index.css.map */
