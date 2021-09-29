@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    @media (min-width: 320px) {
+        max-width: 480px;
+    }
+    @media (min-width: 481px) {
+        max-width: 768px;
+    }
+    @media (min-width: 769px) {
+        max-width: 1024px;
+    }
+    @media (min-width: 1025px) {
+        max-width: 1200px;
+    }
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    .content_top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (min-width: 320px) {
+            flex-direction: column;
+        }
+        @media (min-width: 481px) {
+            flex-direction: column;
+        }
+        @media (min-width: 769px) {
+            flex-direction: row;
+        }
+        @media (min-width: 1025px) {
+            flex-direction: row;
+        }
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                margin-bottom: 35px;
+                border-radius: 5px;
+                box-shadow: 5px 10px 8px 10px #d6d6d6;
+                @media (min-width: 320px) {
+                    width: 200px;
+                }
+                @media (min-width: 481px) {
+                    width: 800px;
+                }
+                @media (min-width: 769px) {
+                    width: 800px;
+                }
+                @media (min-width: 1025px) {
+                    width: 800px;
+                }
+            }
+        }
+        .social {
+            @media (min-width: 320px) {
+                margin-left: 0px;
+            }
+            @media (min-width: 481px) {
+            }
+            @media (min-width: 769px) {
+            }
+            @media (min-width: 1025px) {
+                margin-left: 50px;
+            }
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: #5ce1e6;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .icons {
+                img {
+                    background-color: #5ce1e6;
+                    border-radius: 50%;
+                    padding: 5px;
+                    margin: 15px 2px 35px 2px;
+                    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+                    transition: box-shadow 0.3s ease-in-out, 0.5s ease;
+                    &:hover {
+                        background-color: #51c6ca;
+                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                    }
+                }
+            }
+        }
+    }
+    .content_bottom {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        flex-direction: column;
+        padding: 30px 700px 30px 400px;
+        color: #4a4a4a;
+        p {
+            margin: 20px 0px 20px 0px;
+            font-size: 18px;
+            letter-spacing: 1.2px;
+            line-height: 25px;
+        }
+        h1 {
+            font-size: 23px;
+            font-weight: 600;
+        }
+        .display {
+            display: none;
+        }
+        a {
+            text-decoration: none;
+            background: #50c3c7;
+            border-radius: 12px;
+            border: none;
+            padding: 0;
+            cursor: pointer;
+            outline-offset: 4px;
+
+            span {
+                display: block;
+                padding: 12px 42px;
+                border-radius: 12px;
+                font-size: 1.25rem;
+                background: #5ce1e6;
+                color: white;
+                transform: translateY(-6px);
+                transition: background 0.5s ease;
+                transition: transform 0.3s ease;
+                &:hover {
+                    transform: translateY(-8px);
+                }
+                &:active {
+                    transform: translateY(-2px);
+                }
+            }
+        }
+    }
+}
