@@ -4,6 +4,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -155,9 +159,16 @@
   text-align: center;
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 320px) {
+  .container .content_top .social {
+    margin: 0px;
+  }
+}
+
+@media (min-width: 1342px) {
   .container .content_top .social {
     margin-left: 50px;
+    margin-bottom: 450px;
   }
 }
 
