@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+p,
+a {
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+  font-weight: 700 bold;
+  color: #111;
+  font-size: 2.7em;
+  line-height: 1.13em;
+  text-align: center;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 8;
+  grid-column: 1 / span 8;
+  margin: 110px;
+}
+
+.info-section {
+  background-color: #434a54;
+  padding: 110px;
+}
+
+.info-section h1 {
+  font-size: 2.7em;
+  font-weight: bolder;
+  font-weight: 700;
+  margin: 0 0 20px;
+  line-height: 1;
+}
+
+.info-section p {
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  text-align: center;
+  color: white;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.button-wrap {
+  display: block;
+  margin-top: 80px;
+}
+
+.button-wrap span {
+  text-align: center;
+  display: block;
+}
+
+.button-wrap span a {
+  background: #8DB255;
+  border-color: #8DB255;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  padding: 25px 65px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: auto;
+  text-align: center;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.button-wrap span a:hover {
+  background: #434a54;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.partners-section {
+  padding-bottom: 210px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.swiper {
+  width: 70%;
+  height: 20%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=style.css.map */
