@@ -17,17 +17,26 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-    <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-    <!-- Demo styles -->
-    <style>
-    </style>
 
     <title>GT Solution</title>
 </head>
 
 <body>
+    <div class="video-background">
+        <video src="banner.mp4" autoplay muted loop></video>
+    </div>
+
+    <div class="video-cover"></div>
+
+    <div class="frontpage-content">
+        <h1>Jij vraagt... Wij creeën de oplossing!</h1>
+        <p class="p1">GT Solution is een innovatief bedrijf. Wij bieden totaaloplossingen op het gebied van PERSONEEL, MARKETING en ICT. Of je nu op zoek bent naar personeel, 
+            graag een mooie en efficiënte website gebouwd wilt hebben, een compleet marketingplan nodig hebt of je hebt vragen op het gebied van ICT.... 
+            Jij vraagt.. wij creëren de oplossing. Met ons vakkundige team staan wij graag voor je klaar.</p>
+        <p class="p2">GT Solution is een innovatief bedrijf. Wij bieden totaaloplossingen op het gebied van PERSONEEL, MARKETING en ICT.</p>
+    </div>
+
     <!-- Meer informatie sectie -->
     <div class="info-section">
         <h1 class="section-title" style="color: white;">Wil jij informatie over onze dienstverlening?</h1>
@@ -43,40 +52,79 @@
     <div class="partners-section">
         <h1 class="section-title">Partners</h1>
 
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="images/Teleperformance-logo-1-300x106.png"></div>
-                <div class="swiper-slide"><img src="images/transparent-1.png"></div>
-                <div class="swiper-slide"><img src="images/transparent-370x370.png"></div>
-                <div class="swiper-slide"><img src="images/transparent-charitech-300x150.png"></div>
-                <div class="swiper-slide"><img src="images/transparent-happy-workers-300x94.png"></div>
-                <div class="swiper-slide"><img src="images/transparent-job2work-370x370.png"></div>
-                <div class="swiper-slide"><img src="images/transparent-macee.png"></div>
-                <div class="swiper-slide"><img src="images/transparent-Marja-Hendriks.png"></div>
-                <div class="swiper-slide"><img src="images/transparent-workway-e1629987364221-300x72.png"></div>
-                <div class="swiper-slide"><img src="images/vreal-soft-logo.png"></div>
-                <div class="swiper-slide"><img src="images/We-develop-romotely.png"></div>
-                <div class="swiper-slide"><img src="images/whoffice.nl_-300x169.png"></div>
+        <div class="swiper-desktop">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/Teleperformance-logo-1-300x106.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-1.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-370x370.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-charitech-300x150.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-happy-workers-300x94.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-job2work-370x370.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-macee.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-Marja-Hendriks.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-workway-e1629987364221-300x72.png"></div>
+                    <div class="swiper-slide"><img src="images/vreal-soft-logo.png"></div>
+                    <div class="swiper-slide"><img src="images/We-develop-romotely.png"></div>
+                    <div class="swiper-slide"><img src="images/whoffice.nl_-300x169.png"></div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-pagination"></div>
+    
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 5,
+                    loop: true,
+                    spaceBetween: 30,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    autoplay: {
+                        delay: 2000,
+                    },
+                });
+            </script>
         </div>
 
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-        <script>
-            var swiper = new Swiper(".mySwiper", {
-                slidesPerView: 5,
-                loop: true,
-                spaceBetween: 30,
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
-                autoplay: {
-                    delay: 2000,
-                },
-            });
-        </script>
+        <div class="swiper-mobile">
+            <div class="swiper mySwiperMobile">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/Teleperformance-logo-1-300x106.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-1.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-370x370.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-charitech-300x150.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-happy-workers-300x94.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-job2work-370x370.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-macee.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-Marja-Hendriks.png"></div>
+                    <div class="swiper-slide"><img src="images/transparent-workway-e1629987364221-300x72.png"></div>
+                    <div class="swiper-slide"><img src="images/vreal-soft-logo.png"></div>
+                    <div class="swiper-slide"><img src="images/We-develop-romotely.png"></div>
+                    <div class="swiper-slide"><img src="images/whoffice.nl_-300x169.png"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+    
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+            <script>
+                var swiper = new Swiper(".mySwiperMobile", {
+                    slidesPerView: 1,
+                    loop: true,
+                    spaceBetween: 30,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    autoplay: {
+                        delay: 2000,
+                    },
+                });
+            </script>
+        </div>
     </div>
 
 </body>
