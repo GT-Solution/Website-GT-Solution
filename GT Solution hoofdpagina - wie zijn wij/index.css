@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-top: 50px;
+}
+
+.about {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-color: #f7f9fb;
+}
+
+@media (min-width: 320px) {
+  .about {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 10%;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 769px) {
+  .about {
+    width: 70%;
+    padding-left: 15%;
+  }
+}
+
+.about .sub_about_1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+@media (min-width: 320px) {
+  .about .sub_about_1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .about .sub_about_1 {
+    width: 45%;
+  }
+}
+
+.about .sub_about_1 .lees_meer_knop {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.about .sub_about_1 .lees_meer_knop a {
+  text-decoration: none;
+  color: #1F3D83;
+  padding: 10px 20px;
+  border: 2px solid #1F3D83;
+  border-radius: 5px;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.about .sub_about_1 .lees_meer_knop a:hover {
+  background-color: #1F3D83;
+  color: white;
+}
+
+.about .sub_about_2 {
+  width: 45%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  vertical-align: top;
+}
+
+@media (min-width: 320px) {
+  .about .sub_about_2 {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .about .sub_about_2 {
+    display: inline-block;
+  }
+}
+
+.about .unbreakable_text {
+  margin-top: 40px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.about .unbreakable_text .white_space {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=index.css.map */
