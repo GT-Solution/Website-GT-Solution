@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content_top">
+            <div class="top_text">
+                <p>Iedereen weet dat een website de sleutel is voor jouw bedrijf. Het is meestal de eerste blik die
+                    iemand van je bedrijf krijgt.</p>
+                <p>Je krijgt niet snel een 2e kans voor een 1e indruk!</p>
+                <p>Onze experts zorgen ervoor dat jouw website er optimaal uitziet en volledig aansluit bij jou wensen
+                    en nog meer.. bij de wensen van de klant</p>
+            </div>
+            <div class="social">
+                <h2>Volg ons hier</h2>
+                <div class="icons">
+                    <a href="https://www.facebook.com/GLOBAL.TALENT.SOLUTION.BV/"><img
+                            src="https://img.icons8.com/ios-glyphs/ffffff/facebook-f.png" /></a>
+                    <a href="https://twitter.com/G_T_Solution"><img
+                            src="https://img.icons8.com/ios-glyphs/ffffff/twitter.png" /></a>
+                    <a href="https://www.instagram.com/gtsolutionbv/"><img
+                            src="https://img.icons8.com/material-outlined/ffffff/instagram-new.png" /></a>
+                    <a href="https://www.linkedin.com/company/gt-solution-b-v/"><img
+                            src="https://img.icons8.com/material-rounded/ffffff/linkedin.png" /></a>
+                </div>
+                <a href="">Privacy Statement</a>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="1.png" alt="">
+            <div class="contact">
+                <h1>Vragenlijst Website / webshop</h1>
+                <h3>Vul zoveel mogelijk vragen in!</h3>
+                <hr>
+                <h2>Algemene vragen over je bedrijf of organisatie.</h2>
+                <form action="action.php" method="POST">
+
+                    <label for="fname">Naam</label>
+                    <input class="input_box" type="text" id="fname" name="firstname" placeholder="Voornaam">
+                    <input class="input_box" type="text" id="lname" name="lastname" placeholder="Achternaam">
+
+                    <label for="street">Adres</label>
+                    <input class="input_box" type="text" id="street" name="street" placeholder="Straat en huisnummer">
+                    <input class="input_box" type="text" id="street" name="city" placeholder="Plaats">
+                    <input class="input_box" type="text" id="state" name="state" placeholder="Staat / Provincie">
+                    <input class="input_box" type="text" id="postalcode" name="postalcode" placeholder="Postcode">
+
+                    <label for="phone">Telefoonnummer</label>
+                    <input class="input_box" type="number" id="phone" name="phone" placeholder="(000) 000-0000">
+
+                    <label for="email">E-mail</label>
+                    <input class="input_box" type="text" id="email" name="email" placeholder="voorbeeld@voorbeeld.com">
+
+                    <label for="contact_person">Contactpersoon</label>
+                    <textarea class="input_box" id="contact_person" name="contact_person" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="phone_contact_person">Telefoonnummer contactpersoon</label>
+                    <input class="input_box" type="number" id="phone_contact_person" name="phone_contact_person"
+                        placeholder="(000) 000-0000">
+
+                    <label for="already_own_website">Heb je al een website? Zo ja, wat is je URL?</label>
+                    <input class="input_box" type="text" id="already_own_website" name="already_own_website"
+                        placeholder="voorbeeld@voorbeeld.com">
+
+                    <label for="current_webhosting">Wie is je huidige webhosting bedrijf? ( indien van
+                        toepassing)</label>
+                    <input class="input_box" type="text" id="current_webhosting" name="current_webhosting">
+
+                    <label for="description_organisation">Geef een omschrijving van je bedrijf of organisatie.</label>
+                    <textarea class="input_box" id="description_organisation" name="description_organisation"
+                        style="height:200px" placeholder="Type here..."></textarea>
+
+                    <label for="focus">Richt jou bedrijf zich op consumenten of bedrijven?</label>
+                    <textarea class="input_box" id="focus" name="focus" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="where_work">Werk je alleen in Nederland of ook daarbuiten?</label>
+                    <label for="where_work"><input type="radio" id="where_work" name="where_work"> Nederland</label>
+                    <label for="where_work"><input class="radio" type="radio" id="where_work2" name="where_work">
+                        Buitenland</label>
+
+                    <label for="target">Wie of wat is je doelgroep?</label>
+                    <textarea class="input_box" id="target" name="target" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="achieve_new_website">Wat wil je met je nieuwe website bereiken?</label>
+                    <textarea class="input_box" id="achieve_new_website" name="achieve_new_website" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="own_logo">Heb je al een logo / huisstijl?</label>
+                    <label for="own_logo"><input type="radio" id="own_logo" name="own_logo"> Ja</label>
+                    <label for="own_logo"><input class="radio" type="radio" id="own_logo2" name="own_logo"> Nee</label>
+
+                    <label for="file">Upload hier een voorbeeld van je logo / huisstijl.</label>
+                    <input class="input_file" type="file" id="file" name="file">
+
+                    <label for="high_resolution">Beschik je zelf over foto/reclame materiaal in hoge resolutie?</label>
+                    <input class="input_box" type="text" id="high_resolution" name="high_resolution">
+
+                    <label for="new_logo">Overweeg je een nieuw logo?</label>
+                    <input class="input_box" type="text" id="new_logo" name="new_logo">
+
+                    <label for="letter_type">Gebruik je al een bepaald lettertype? Zo ja, welke?</label>
+                    <input class="input_box" type="text" id="letter_type" name="letter_type">
+
+                    <label for="colors">Zijn er kleuren die je op wilt nemen in je website?</label>
+                    <input class="input_box" type="text" id="colors" name="colors">
+
+                    <label for="color_code">Beschik je over de kleurnummers?</label>
+                    <input class="input_box" type="text" id="color_code" name="color_code">
+
+                    <label for="slogan_website">Heb je al een slogan of slagzin?</label>
+                    <textarea class="input_box" id="slogan_website" name="slogan_website" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="website_webshop">Heb je voldoende aan een website of wil je ook een webshop?</label>
+                    <textarea class="input_box" id="website_webshop" name="website_webshop" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="structure_website">Weet je al hoe de structuur van je website eruit moet gaan
+                        zien?</label>
+                    <textarea class="input_box" id="structure_website" name="structure_website" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="responsive">Wil je een website die zich zelf aanpast aan meerdere apparaten? (Zg.
+                        responsief webdesign)</label>
+                    <label for="responsive"><input type="radio" id="responsive" name="responsive"> Ja</label>
+                    <label for="responsive"><input class="radio" type="radio" id="responsive2" name="responsive">
+                        Nee</label>
+
+                    <label for="favourite_website">Heb jij zelf momenteel een favoriete website? Of een die je er echt
+                        lelijk vindt?</label>
+                    <textarea class="input_box" id="favourite_website" name="favourite_website" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="cms">Wordt jou site gemanaged met een content management systeem (CMS)?</label>
+                    <label for="cms"><input type="radio" id="cms" name="cms"> Ja</label>
+                    <label for="cms"><input class="radio" type="radio" id="cms2" name="own_logo"> Nee</label>
+
+                    <label for="type_cms">Weet je welk type CMS?</label>
+                    <input class="input_box" type="text" id="type_cms" name="type_cms">
+
+                    <label for="blog_website">Wil je een blog koppelen aan je website?</label>
+                    <input class="input_box" type="text" id="blog_website" name="blog_website">
+
+                    <label for="reaction">Moeten mensen een reactie achter kunnen laten op je website?</label>
+                    <label for="reaction"><input type="radio" id="reaction" name="reaction"> Ja</label>
+                    <label for="reaction"><input class="radio" type="radio" id="reaction2" name="reaction"> Nee</label>
+
+                    <label for="own_content">Beschik jij zelf over content ( tekst) voor je website? Of lever je dit
+                        zelf aan?</label>
+                    <textarea class="input_box" id="own_content" name="own_content" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="own_foto">Beschik jezelf over foto/ videomateriaal voor je website?</label>
+                    <textarea class="input_box" id="own_foto" name="own_foto" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="who_website">Wie gaat je website onderhouden?</label>
+                    <textarea class="input_box" id="who_website" name="who_website" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="update">Hoe vaak (verwacht je) wordt de website geüpdatet?</label>
+                    <label for="update"><input type="checkbox" id="update" name="update"> Wekelijks</label>
+                    <label for="update"><input type="checkbox" id="update2" name="update"> Maandelijks</label>
+                    <label for="update"><input type="checkbox" id="update3" name="update"> Per Kwartaal</label>
+                    <label for="update"><input class="radio" type="checkbox" id="update4" name="update"> Max 4x per
+                        jaar</label>
+
+                    <label for="social_media">Maak je al gebruik van Social Media? Zo ja, geef aan welke.</label>
+                    <label for="social_media"><input type="checkbox" id="social_media" name="social_media">
+                        Facebook</label>
+                    <label for="social_media"><input type="checkbox" id="social_media2" name="social_media">
+                        Instagram</label>
+                    <label for="social_media"><input type="checkbox" id="social_media3" name="social_media">
+                        LinkedIn</label>
+                    <label for="social_media"><input type="checkbox" id="social_media4" name="social_media">
+                        Twitter</label>
+                    <label for="social_media"><input type="checkbox" id="social_media5" name="social_media">
+                        Youtube</label>
+                    <label for="social_media"><input class="radio" type="checkbox" id="social_media6 "
+                            name="social_media"> Andere</label>
+
+                    <label for="maintenance">Wil je het onderhoud van je Social Media uitbesteden?</label>
+                    <textarea class="input_box" id="maintenance" name="maintenance" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="website_functions">Zijn er nog andere website functies die je gebruiken wilt?</label>
+                    <textarea class="input_box" id="website_functions" name="website_functions" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="decision">Wie nemen binnen jou organisatie beslissingen over de website?</label>
+                    <input class="input_box" type="text" id="decision" name="decision">
+
+                    <label for="it_specialist">Is er een IT specialist binnen de organisatie waarmee wij
+                        samenwerken?</label>
+                    <input class="input_box" type="text" id="it_specialist" name="it_specialist">
+
+                    <label for="more_involved">Zijn er nog meer mensen betrokken bij de website en mogen deze ook
+                        beslissingen nemen hierover? Zou je hier dan de naam en functie van deze personen willen
+                        vermelden?</label>
+                    <textarea class="input_box" id="more_involved" name="more_involved" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="ideas">Heb je al ideeën om je nieuwe website te promoten?</label>
+                    <textarea class="input_box" id="ideas" name="ideas" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="communicate">Communiceer je momenteel ( naast event. social media) op nog een andere
+                        wijze met je doelgroep?</label>
+                    <textarea class="input_box" id="communicate" name="communicate" style="height:200px"
+                        placeholder="Type here..."></textarea>
+
+                    <label for="other_cases">Zijn er nog andere zaken die voor jou belangrijk zijn of waar wij rekening
+                        mee zouden moeten houden?</label>
+                    <textarea class="input_box" id="other_cases" name="other_cases" style="height:200px"
+                        placeholder="Type here..."></textarea>
+                    <span>
+                        <a class="btn">
+                            <input type="submit" class="button_front">
+                        </a>
+                    </span>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
